@@ -1,0 +1,33 @@
+#head{
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    background-color: #ffffffff;
+}
+#head_1{
+    width: 50%;
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    gap: 20px;
+    /* border: 1px solid; */
+}
+#head_1 div{
+    /* border: 1px solid; */
+    font-weight: bold;
+    font-size: 20px;
+    padding:0 10px;
+    color: #333333;
+}
+#head a{
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+}
+#head_1 img{
+    width: 100%;
+}
+#head_2{
+    width: 50%;
+    display:grid;
+    grid-template-columns:repeat(6,auto);
+    gap: 20px;
+}
