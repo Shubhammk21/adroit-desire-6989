@@ -75,15 +75,55 @@
 #e h4{
     font-weight: 500;
 }
-/* @media screen and (max-width:858px) {
-    #a,#b,#d,#e{
-        position:absolute;
+#head_1>div>h4{
+    display: inline-block;
+}
+.checkbtnr{
+    float: right;
+    display: none;
+    font-size: 30px;
+}
+.checkr{
+    display: none;
+}
+@media screen and (max-width:858px) {
+    .checkbtnr{
+        display: block;
+        margin: auto;
+    }
+    /* .checkr{
+        display: block;
+    } */
+    /* #head_1>div>h4{
+        display: none;
+    } */
+    #head_2{
+        display: none;
+    }
+    #head_1>div{
+        position: fixed;
         width: 100%;
         height: 100vh;
-        background-color: white;
-        top: 6rem;
+        background-color: aquamarine;
+        top: 80px;
+        left: -110%;
         text-align: center;
+        transition: all .5s;
+        /* display: block; */
     }
-    /* #a,#b,#d,#e */
+    #head_1>div>h4{
+        display: block;
+    }
+    #head_1>div>h4{
+        display: block;
+        margin: 30px 0;
+        line-height: 20px;
+    }
+    .checkr:checked~div h4{
+        left: 0;
+        border: 1px solid;
+        /* display: block; */
+    }
+}
     
 

@@ -471,6 +471,13 @@ body{
 #step5 h1{
     display: block;
 }  */
+.checkbtn{
+    float:right;
+    display: none;
+}
+.check{
+    display: none;
+}
 @media screen and (max-width:858px){
     #contand h1,#step4 h1,#step5 h1,#step3 h1,#step6 h1,#step8 h1,#step9 h1,#step11 h1,#step12 h1{
         font-size: 44px;
@@ -749,21 +756,28 @@ body{
     #shu1 div,#shu2 div,#shu3 div,#shu4 div,#shu5 div{
         display: none;
         position:absolute;
-        width: 100%;
-        height: 100vh;
+        /* width: 90%;
+        height: 90%; */
+        bottom: 10rem;
         background-color: white;
         bottom: 6rem;
         text-align: center;
+        transition: all .5s;
+        /* display: block; */
+        /* cursor:pointer */
     }
     #last{
         width: 95%;
         display: block;
         float: right;
     }
-    /* #shu1 div,#shu2 div,#shu3 div,#shu4 div,#shu5 div:checked{
-
-    } */
-    
+    .checkbtn{
+        display: block;
+    }
+    .check:checked{
+        bottom: 0;
+    }
+     
     
 }
 
