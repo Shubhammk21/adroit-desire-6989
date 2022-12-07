@@ -11,6 +11,7 @@
     width: 50%;
     display:flex;
     gap: 20px;
+    user-select: none;
     /* justify-content: center;
     align-self:center; */
 }
@@ -50,16 +51,19 @@
     cursor: all-scroll;
     overflow:scroll;
     position: absolute;
-    
     left: 0;
     width: 700px;
     height: 600px;
     cursor: scroll;
     overflow:scroll;
     top: 6rem;
+    
     background-color: white;
     background-repeat: no-repeat;
 }
+/* #a p,#b p,#d p,#e p:hover{
+    background-color: aqua;
+} */
 #a p,#b p,#d p,#e p{
     display: block;
     margin-top: -20px;
@@ -100,7 +104,7 @@
     #head_2{
         display: none;
     }
-    #head_1>div{
+    /* #head_1>div{
         position: fixed;
         width: 100%;
         height: 100vh;
@@ -110,7 +114,6 @@
         text-align: center;
         transition: all .5s;
         /* display: block; */
-    }
     #head_1>div>h4{
         display: block;
     }

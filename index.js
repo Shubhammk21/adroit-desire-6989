@@ -52,6 +52,14 @@ a.addEventListener("click",function(event){
         // -webkit-filter: blur(8px);
     });
 })
+a.addEventListener("dblclick",function(event){ 
+    let a1=document.querySelector("#a");
+    b.style.backgroundColor="";
+    b.style.color="";   
+    bbb.style.filter="";
+    a1.style.display="none"
+    a1.style.cursor="pointer"
+})
 
 let b=document.querySelector("#sol");
 b.addEventListener("click",function(event){
@@ -70,6 +78,18 @@ b.addEventListener("click",function(event){
         // -webkit-filter: blur(8px);
     });
 })
+b.addEventListener("dblclick",function(event){ 
+    let a1=document.querySelector("#b");
+    b.style.backgroundColor="";
+    b.style.color="";   
+    bbb.style.filter="";
+    a1.style.display="none"
+    a1.style.cursor="pointer"
+})
+
+
+
+
 let d=document.querySelector("#ent");
 d.addEventListener("click",function(event){
     let a1=document.querySelector("#d");
@@ -86,6 +106,15 @@ d.addEventListener("click",function(event){
         // -webkit-filter: blur(8px);
     });
 })
+d.addEventListener("dblclick",function(event){ 
+    let a1=document.querySelector("#d");
+    d.style.backgroundColor="";
+    d.style.color="";   
+    bbb.style.filter="";
+    a1.style.display="none"
+    a1.style.cursor="pointer"
+})
+
 let e=document.querySelector("#res");
 e.addEventListener("click",function(event){ 
     let a1=document.querySelector("#e");
@@ -103,5 +132,31 @@ e.addEventListener("click",function(event){
     });
        
 })
+// let e1=document.querySelector("#res");
+e.addEventListener("dblclick",function(event){ 
+    let a1=document.querySelector("#e");
+    e.style.backgroundColor="";
+    e.style.color="";   
+    bbb.style.filter="";
+    a1.style.display="none"
+    a1.style.cursor="pointer"
+})
+// let f=document.querySelector("#checkbtn");
+// f.addEventListener("click",function(event){ 
+//     let a1=document.querySelector("#shu1");
+//     f.style.backgroundColor="black";
+//     f.style.color="white";   
+//     bbb.style.filter="blur(8px)";
+//     a1.style.display="block"
+//     bbb.addEventListener("click",function(event){
+//         a1.style.display="none"
+//         bbb.style.filter="";
+//         e.style.backgroundColor="";
+//         e.style.color="";
+//         // filter: blur(8px);
+//         // -webkit-filter: blur(8px);
+//     });
+       
+// })
 
 

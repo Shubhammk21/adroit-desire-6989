@@ -86,6 +86,7 @@ span{
 }
 #details{
     padding:0px 10px;
+    /* display: none; */
 }
 #details p{
     color: white;
